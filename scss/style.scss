@@ -10,4 +10,134 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* common css end  */
+/* nav section css start */
+#nav{
+    padding: 33px 0;
+    .logo{
+        font-size: 24px;
+        font-weight: 700;
+        color: #252B42;
+    }
+    #navbar_ul{
+        ul{
+            margin-left: 70px;
+            li a{
+                font-size: 14px;
+                color: #737373;
+                padding-right: 20px;
+                font-weight: 700;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #96BB7C;
+                }
+            }
+        }
+        .nav_log_btn{
+            a{
+                font-size: 14px;
+                color: #96BB7C;
+                padding-right: 22px;
+                font-weight: 700;
+                text-transform: capitalize;
+                &.active_btn{
+                    padding: 21px 24px;
+                    background: #96BB7C;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+                i{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+/* nav section css end */
+/* Banner section css start */
+#banner{
+    background: #EFF8ED;
+    height: 617px;
+    .banner_content{
+        h6{
+            font-size: 16px;
+            color: #96BB7C;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        h1{
+            font-size: 58px;
+            font-weight: 700;
+            color: #252B42;
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            color: #737373;
+            margin-bottom: 34px;
+        }
+        .banner_btn{
+            a{
+                padding: 18px 40px;
+                border: 2px solid #96BB7C;
+                margin-right: 15px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #96BB7C;
+                text-transform: capitalize;
+                border-radius: 5px;
+                transition: 0.5s;
+                &:hover{
+                    background: #96BB7C;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .banner_img{
+        img {
+            margin-top: 0;
+            height: 640px;
+        }
+    }
+}
+/* Banner section css end */
+/* Card section css start */
+#card{
+    margin-top: -40px;
+    z-index: 999999999;
+    position: static;
+    .card_box{
+        padding: 36px 40px;
+        box-shadow: 0 19px 13px 0 rgba(0, 0, 0, 0.07);
+        img{
+            width: 72px;
+            height: 72px;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            color: #252B42;
+            margin-bottom: 25px;
+        }
+        .line{
+            width: 50px;
+            height: 2px;
+            background: #E74040;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #737373;
+            width: 220px;
+            margin-top: 20px;
+        }
+    }
+}
+/* Card section css end */
