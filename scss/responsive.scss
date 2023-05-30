@@ -373,3 +373,163 @@
 }
 
 @media (max-width: 575.98px){}
+
+@media (max-width: 360px){
+    /* nav section responsive css start */
+    #nav #navbarSupportedContent {
+        margin-top: 20px;
+    }
+    #nav #navbarSupportedContent ul {
+        margin-left: 30px;
+    }
+    #nav #navbarSupportedContent ul li a {
+        margin-bottom: 20px;
+    }
+    #nav #navbarSupportedContent .nav_log_btn a {
+        padding-right: 40px;
+        padding-left: 33px;
+    }
+    /* nav section responsive css end */
+    /* Banner section responsive css start */
+    #banner {
+        height: 400px;
+    }
+    #banner .banner_content h6 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #banner .banner_content h1 {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+    #banner .banner_content p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    #banner .banner_content .banner_btn a {
+        padding: 8px 14px;
+        margin-right: 10px;
+    }
+    #banner .banner_img img {
+        display: none;
+    }
+    /* Banner section responsive css end */
+    /* Card section responsive css start */
+    #card .card_box {
+        padding: 24px 25px;
+        width: 300px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    #card .card_box img {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 16px;
+    }
+    #card .card_box h3 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    /* Card section responsive css end */
+    /* packages section responsive css start */
+    #packages {
+        margin: 30px 0;
+    }
+    #packages .packages_img img {
+        width: 330px;
+        margin-left: -6px;
+    }
+    #packages .packages_content .line {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #packages .packages_content h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    #packages .packages_content p {
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    #packages_2 .packages_content .line {
+        margin-top: -80px;
+        margin-bottom: 20px;
+    }
+    #packages_2 .packages_content h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    #packages_2 .packages_content p {
+        width: 320px;
+        margin-bottom: 20px;
+    }
+    #packages_2 .packages_content a {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    #packages_2 .packages_img img {
+        width: 333px;
+    }
+    #packages_2 .packages_img a {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    /* packages section responsive css end */
+    /* coures section responsive css start */
+    #coures {
+        margin: -60px 0;
+    }
+    #coures .coures_text h1 {
+        font-size: 34px;
+    }
+    #coures .coures_text p {
+        margin-bottom: 50px;
+    }
+    #coures .course_slider_content {
+        margin-right: -15px;
+        margin-bottom: 70px;
+        margin-left: 20px;
+    }
+    /* coures section responsive css end */
+    /* testimonial section responsive css start */
+    #testimonial .testimonial_text {
+        margin-top: 70px;
+    }
+    #testimonial .testimonial_text h1 {
+        font-size: 34px;
+    }
+    #testimonial .testimonial_text p {
+        margin-bottom: 50px;
+    }
+    #testimonial .testimonial_content {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    /* testimonial section responsive css end */
+    /* newsletter section responsive css start */
+    #newsletter {
+        height: 470px;
+    }
+    #newsletter .newsletter_content .input input {
+        width: 310px;
+    }
+    #newsletter .newsletter_content .input button {
+        margin-top: 20px;
+    }
+    /* newsletter section responsive css end */
+    /* Footer section responsive css start */
+    #footer .company {
+        width: 180px;
+       margin-bottom: 30px;
+    }
+    #footer .company:last-child{
+        margin-bottom: 0;
+    }
+    #copyright ul {
+        margin-top: 15px;
+        margin-left: 110px;
+    }
+    /* Footer section responsive css end */
+}
