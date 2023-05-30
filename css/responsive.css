@@ -1,0 +1,365 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner section responsive css start */
+  #banner .banner_img img {
+    height: 540px;
+    margin-left: -30px;
+  }
+  #banner .banner_content h6 {
+    margin-bottom: 30px;
+  }
+  #banner .banner_content h1 {
+    font-size: 54px;
+    margin-bottom: 30px;
+  }
+  #banner .banner_content p {
+    margin-bottom: 40px;
+  }
+  /* banner section responsive css end */
+  /* card section responsive css start */
+  #card .card_box {
+    padding: 24px 20px;
+    width: 300px;
+    margin-right: 20px;
+  }
+  /* card section responsive css end */
+  /* packages section responsive css start */
+  #packages {
+    margin: 130px 0;
+  }
+  #packages .packages_img img {
+    width: 470px;
+    margin-left: -10px;
+  }
+  #packages .packages_content {
+    padding-left: 20px;
+  }
+  #packages .packages_content .line {
+    margin-bottom: 30px;
+  }
+  #packages .packages_content h1 {
+    margin-bottom: 30px;
+  }
+  #packages .packages_content p {
+    margin-bottom: 20px;
+  }
+  #packages_2 {
+    margin: 120px 0;
+  }
+  #packages_2 .packages_img img {
+    width: 480px;
+  }
+  #packages_2 .packages_img a {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+  #packages_2 .packages_content .line {
+    margin-bottom: 30px;
+  }
+  #packages_2 .packages_content h1 {
+    margin-bottom: 30px;
+  }
+  #packages_2 .packages_content p {
+    margin-bottom: 20px;
+  }
+  /* packages section responsive css end */
+  /* coures section responsive css start */
+  #coures .coures_text p {
+    margin-bottom: 70px;
+  }
+  #coures .course_slider_content {
+    width: 210px;
+    margin-bottom: 70px;
+  }
+  #coures .course_slider_content .course_slider_content_img img {
+    width: 220px;
+  }
+  #coures .course_slider_content .course_slider_content_img .link_overlay a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+  #coures .course_slider_content .course_slider_content_text {
+    padding: 0 10px;
+    width: 219px;
+  }
+  /* coures section responsive css end */
+  /* testimonial section responsive css start */
+  #testimonial .testimonial_text p {
+    margin-bottom: 80px;
+  }
+  #testimonial .testimonial_content {
+    padding: 10px 70px;
+  }
+  /* testimonial section responsive css end */
+  /* newsletter section responsive css start */
+  #newsletter {
+    height: 510px;
+  }
+  #newsletter .newsletter_content .input input {
+    width: 480px;
+  }
+  /* newsletter section responsive css end */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* nav section responsive css start */
+  #nav #navbarSupportedContent {
+    margin-top: 20px;
+  }
+  #nav #navbarSupportedContent ul li a {
+    margin-bottom: 20px;
+  }
+  #nav #navbarSupportedContent .nav_log_btn a {
+    padding-right: 40px;
+    padding-left: 73px;
+  }
+  /* nav section responsive css end */
+  /* banner section responsive css start */
+  #banner {
+    height: 517px;
+  }
+  #banner .banner_content h6 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  #banner .banner_content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  #banner .banner_content p {
+    font-size: 18px;
+    margin-bottom: 38px;
+  }
+  #banner .banner_img img {
+    display: none;
+  }
+  /* banner section responsive css end */
+  /* Card section responsive css start */
+  #card .card_box {
+    padding: 28px 30px;
+    width: 330px;
+    margin-bottom: 10px;
+  }
+  /* Card section responsive css end */
+  /* packages section responsive css start */
+  #packages {
+    margin: 70px 0;
+  }
+  #packages .packages_img img {
+    width: 470px;
+    margin-left: 80px;
+  }
+  #packages .packages_content {
+    padding-left: 20px;
+  }
+  #packages_2 {
+    margin: 80px 0;
+  }
+  #packages_2 .packages_content a {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  #packages_2 .packages_img img {
+    width: 440px;
+  }
+  #packages_2 .packages_img a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    top: 45%;
+    left: 33%;
+    -webkit-transform: translate(-42%, -42%);
+            transform: translate(-42%, -42%);
+  }
+  /* packages section responsive css end */
+  /* coures section responsive css start */
+  #coures {
+    margin: 90px 0;
+  }
+  #coures .coures_text p {
+    margin-bottom: 60px;
+  }
+  #coures .course_slider_content {
+    width: 210px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+  }
+  #coures .course_slider_content .course_slider_content_img img {
+    width: 210px;
+  }
+  #coures .course_slider_content .course_slider_content_img .link_overlay a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 18px;
+    margin-left: -10px;
+  }
+  #coures .course_slider_content .course_slider_content_text {
+    padding: 0 10px;
+  }
+  /* coures section responsive css end */
+  /* testimonial section responsive css start */
+  #testimonial .testimonial_text {
+    margin-top: 0px;
+  }
+  #testimonial .testimonial_text p {
+    margin-bottom: 70px;
+  }
+  #testimonial .testimonial_content {
+    margin-bottom: 20px;
+  }
+  /* testimonial section responsive css end */
+  /* newsletter section responsive css start */
+  #newsletter {
+    height: 500px;
+  }
+  #newsletter .newsletter_content p {
+    margin-bottom: 40px;
+  }
+  #newsletter .newsletter_content .input input {
+    width: 400px;
+  }
+  #newsletter .newsletter_content .input button {
+    padding: 17px 18px;
+  }
+  /* newsletter section responsive css end */
+  /* Footer section responsive css start */
+  #footer .company {
+    margin-bottom: 30px;
+    width: 240px;
+  }
+  #copyright ul {
+    margin-left: 580px;
+    margin-top: -23px;
+  }
+  /* Footer section responsive css end */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* nav section responsive css start */
+  #nav #navbarSupportedContent {
+    margin-top: 20px;
+  }
+  #nav #navbarSupportedContent ul li a {
+    margin-bottom: 20px;
+  }
+  #nav #navbarSupportedContent .nav_log_btn a {
+    padding-right: 40px;
+    padding-left: 73px;
+  }
+  /* nav section responsive css end */
+  /* Banner section responsive css start */
+  #banner {
+    height: 460px;
+  }
+  #banner .banner_img img {
+    display: none;
+  }
+  #banner .banner_content h6 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  #banner .banner_content h1 {
+    font-size: 44px;
+    margin-bottom: 25px;
+  }
+  #banner .banner_content .banner_btn a {
+    padding: 14px 30px;
+  }
+  /* Banner section responsive css end */
+  /* Card section responsive css star */
+  #card .card_box {
+    padding: 20px 25px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  #card .card_box img {
+    width: 62px;
+    height: 62px;
+  }
+  #card .card_box h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  /* Card section responsive css end */
+  /* packages section responsive css start */
+  #packages {
+    margin: 60px 0;
+  }
+  #packages .packages_content .line {
+    margin-bottom: 20px;
+  }
+  #packages .packages_content h1 {
+    margin-bottom: 20px;
+  }
+  #packages .packages_content p {
+    margin-bottom: 20px;
+  }
+  #packages_2 {
+    margin: 60px 0;
+  }
+  #packages_2 .packages_content .line {
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+  #packages_2 .packages_content h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  #packages_2 .packages_content p {
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_content a {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  /* packages section responsive css end */
+  /* course section responsive css start */
+  #coures {
+    margin: 80px 0;
+  }
+  #coures .coures_text p {
+    margin-bottom: 50px;
+  }
+  #coures .course_slider_content {
+    margin-bottom: 70px;
+  }
+  /* course section responsive css end */
+  /* testimonial section responsive css start */
+  #testimonial .testimonial_text h6 {
+    margin-top: -90px;
+  }
+  #testimonial .testimonial_text p {
+    margin-bottom: 60px;
+  }
+  /* testimonial section responsive css end */
+  /* newsletter section responsive css start */
+  #newsletter {
+    height: 490px;
+  }
+  #newsletter .newsletter_content .input input {
+    width: 380px;
+  }
+  #newsletter .newsletter_content .input button {
+    padding: 17px 16px;
+  }
+  /* newsletter section responsive css end */
+  /* footer section responsive css start */
+  #footer .company {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  #copyright h6 {
+    width: 280px;
+  }
+  #copyright ul {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #copyright ul {
+    margin-top: -33px;
+    margin-left: 402px;
+  }
+  /* footer section responsive css end */
+}/*# sourceMappingURL=responsive.css.map */
