@@ -363,7 +363,152 @@
   }
   /* footer section responsive css end */
 }
-@media (max-width: 360px) {
+@media (max-width: 575.98px) {
+  /* nav section responsive css start */
+  #nav #navbarSupportedContent {
+    margin-top: 20px;
+  }
+  #nav #navbarSupportedContent ul {
+    margin-left: 30px;
+  }
+  #nav #navbarSupportedContent ul li a {
+    margin-bottom: 20px;
+  }
+  #nav #navbarSupportedContent .nav_log_btn a {
+    padding-right: 40px;
+    padding-left: 33px;
+  }
+  /* nav section responsive css end */
+  /* Banner section responsive css start */
+  #banner {
+    height: 490px;
+  }
+  #banner .banner_content h6 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #banner .banner_content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  #banner .banner_content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #banner .banner_content .banner_btn a {
+    padding: 14px 24px;
+    margin-right: 10px;
+  }
+  #banner .banner_img img {
+    display: none;
+  }
+  /* Banner section responsive css end */
+  /* Card section responsive css start */
+  #card .card_box {
+    padding: 20px 25px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  #card .card_box img {
+    width: 52px;
+    height: 52px;
+  }
+  #card .card_box h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  /* Card section responsive css end */
+  /* packages section responsive css start */
+  #packages {
+    margin: 20px 0;
+  }
+  #packages .packages_content .line {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  #packages .packages_content h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_content .line {
+    margin-top: -70px;
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_content h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_content p {
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_content a {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #packages_2 .packages_img {
+    margin-left: 18px;
+  }
+  #packages_2 .packages_img a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    left: 48%;
+  }
+  /* packages section responsive css end */
+  /* coures section responsive css start */
+  #coures {
+    margin: -70px 0;
+  }
+  #coures .coures_text p {
+    margin-bottom: 60px;
+  }
+  #coures .course_slider_content {
+    margin-bottom: 60px;
+  }
+  /* coures section responsive css end */
+  /* testimonial section responsive css start */
+  #testimonial .testimonial_text {
+    margin-top: 70px;
+  }
+  #testimonial .testimonial_text p {
+    margin-bottom: 50px;
+  }
+  #testimonial .testimonial_content {
+    padding: 20px 70px;
+    margin-bottom: 20px;
+  }
+  /* testimonial section responsive css end */
+  /* newsletter section responsive css start */
+  #newsletter {
+    height: 460px;
+  }
+  #newsletter .newsletter_content p {
+    margin-bottom: 40px;
+  }
+  #newsletter .newsletter_content .input input {
+    width: 350px;
+  }
+  #newsletter .newsletter_content .input button {
+    padding: 17px 16px;
+  }
+  /* newsletter section responsive css end */
+  /* Footer section responsive css start */
+  #footer .company {
+    width: 190px;
+    margin-bottom: 30px;
+  }
+  #copyright h6 {
+    width: 280px;
+  }
+  #copyright ul {
+    margin-top: -30px;
+    margin-left: 416px;
+  }
+  /* Footer section responsive css end */
+}
+@media (min-width: 360px) and (max-width: 500px) {
   /* nav section responsive css start */
   #nav #navbarSupportedContent {
     margin-top: 20px;
@@ -458,6 +603,7 @@
   }
   #packages_2 .packages_img img {
     width: 333px;
+    margin-left: -16px;
   }
   #packages_2 .packages_img a {
     width: 60px;
